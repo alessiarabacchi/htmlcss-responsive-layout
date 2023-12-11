@@ -162,6 +162,33 @@ a {
   gap: 20px;
 }
 
+/* SECTION ABOUT US */
+
+.about-us-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: #9792e4;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about-us-min-title {
+  display: flex;
+  justify-content: flex-start;
+  color: #9792e4;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about-us-button {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #9792e4;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 /* TABLET MEDIA */
 @media screen and (max-width: 768px;) {
   .container {
