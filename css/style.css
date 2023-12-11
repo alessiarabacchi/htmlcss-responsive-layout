@@ -189,6 +189,81 @@ a {
   margin-top: 30px;
 }
 
+/* SECTION GET STARTED */
+#get-started {
+  background-color: #9792e4;
+  min-height: 300px;
+}
+
+.get-started-title h5 {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.get-started-title h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.get-started-title h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  color: orange;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.get-started-title p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.get-started-title .button {
+  display: flex;
+  justify-content: center;
+  color: #9792e4;
+  background-color: white;
+  border-radius: 10%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.first-p-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.last-p-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
 /* TABLET MEDIA */
 @media screen and (max-width: 768px;) {
   .container {
