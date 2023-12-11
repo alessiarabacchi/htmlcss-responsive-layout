@@ -140,6 +140,28 @@ a {
   width: 70%;
 }
 
+/* SECTION BENEFITS */
+#benefits {
+  background-color: #9792e4;
+  min-height: 300px;
+}
+
+.benefits-title h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.col-1-3 .benefit .card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100px;
+  gap: 20px;
+}
+
 /* TABLET MEDIA */
 @media screen and (max-width: 768px;) {
   .container {
