@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 15px;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+}
+
+.col-2-3 {
+  width: calc(100% / 3 * 2);
+}
+
+/* HEADER */
+
+#header {
+  background-color: #0084fd;
+  color: white;
+}
+
+#header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SECTION DEMO APP */
+
+#demo-app .card {
+  width: calc(100% / 3);
+}
+
+#demo-app .col:first-child {
+  width: calc(100% / 3 * 2);
+}
+
+#demo-app .card .col {
+  width: 50%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#demo-app .card {
+  background-color: #b5ddff;
+  padding: 1rem;
+  height: 100%;
+}
+
+/* TABLET MEDIA */
+@media screen and (max-width: 768px;) {
+}
+
+/* MOBILE MEDIA */
+@media screen and (max-width: 480px;) {
+}
