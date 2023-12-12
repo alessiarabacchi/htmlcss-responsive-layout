@@ -8,6 +8,14 @@
 
     <title>Responsive Layout</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
@@ -21,8 +29,18 @@
     <!-- HEADER-->
     <header id="header">
       <div class="container">
-        <div class="logo">Logo</div>
-        <nav>Navigation</nav>
+        <div class="logo">
+          <img src="./img/logo.png" alt="" />
+        </div>
+        <nav>
+          <ul>
+            <li>Planning</li>
+            <li>Testimonials</li>
+            <li>Features</li>
+            <li>About Us</li>
+          </ul>
+          <button>Get Started</button>
+        </nav>
       </div>
     </header>
     <!-- END HEADER-->
@@ -58,10 +76,32 @@
         <div class="container">
           <div class="row">
             <div class="col-1-2">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <img src="./img/planning1.png" alt="" />
+                <h3>Strategic Planning</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Earum error facere voluptatum delectus perferendis corrupti
+                  ipsam modi, pariatur architecto distinctio aperiam doloribus
+                  exercitationem officia, sequi ipsum labore repudiandae
+                  sapiente suscipit?
+                </p>
+              </div>
             </div>
             <div class="col-1-2">
-              <div class="card">CONTENUTO</div>
+              <div class="card small">
+                <div class="white-card">
+                  <img src="./img/planning2.png" alt="" />
+                  <h4>App Developement</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Aperiam est provident hic inventore iste commodi adipisci
+                    quas temporibus minima possimus, veniam repellendus sed
+                    facere, consequatur nostrum quam pariatur, nisi eum.
+                  </p>
+                  <i class="fa-solid fa-arrow-down"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -83,7 +123,9 @@
             </div>
 
             <div class="card-testimonials">
-              <div class="testimonials-img">IMG</div>
+              <div class="testimonials-img">
+                <img src="./img/testimonial1.jpg" alt="" />
+              </div>
               <div class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a
                 cumque provident, sunt est harum veniam recusandae doloremque,
@@ -92,7 +134,9 @@
               </div>
             </div>
             <div class="card-testimonials">
-              <div class="testimonials-img">IMG</div>
+              <div class="testimonials-img">
+                <img src="./img/testimonial2.jpg" alt="" />
+              </div>
               <div class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a
                 cumque provident, sunt est harum veniam recusandae doloremque,
@@ -101,7 +145,9 @@
               </div>
             </div>
             <div class="card-testimonials">
-              <div class="testimonials-img">IMG</div>
+              <div class="testimonials-img">
+                <img src="./img/testimonial3.jpg" alt="" />
+              </div>
               <div class="testimonials-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a
                 cumque provident, sunt est harum veniam recusandae doloremque,
@@ -122,22 +168,82 @@
           </div>
           <div class="row">
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>01</h3>
+                <h4>Hight Quality</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>02</h3>
+                <h4>Creative Team</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>03</h3>
+                <h4>Amazing Results</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>04</h3>
+                <h4>Best Pricing</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>05</h3>
+                <h4>Innovations</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
             <div class="col-1-3 benefit">
-              <div class="card">CONTENUTO</div>
+              <div class="card">
+                <h3>06</h3>
+                <h4>24/7 Support</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ducimus iusto iste, dolor vitae incidunt inventore pariatur ab
+                  ullam odio, non, eum laborum nisi illum? Iusto explicabo aut
+                  ex molestias doloribus.
+                </p>
+                <button>more</button>
+              </div>
             </div>
           </div>
         </div>
@@ -158,11 +264,17 @@
                 eligendi fugiat expedita qui corrupti quidem. Alias nobis
                 accusantium autem dolorem nemo maxime aut rerum et, eius aliquid
                 vitae dignissimos beatae iusto recusandae tempora quod
-                voluptates praesentium.
+                voluptates praesentium. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Debitis voluptates sequi velit recusandae
+                aperiam expedita officia eligendi quasi aliquam saepe officiis,
+                odit dignissimos qui, quibusdam dolore dolorum temporibus sint?
+                Numquam!
               </p>
             </div>
             <div class="col-1-2">
-              <div class="about-us-img"></div>
+              <div class="about-us-img">
+                <img src="./img/about.jpg" alt="" />
+              </div>
               <h3 class="about-us-min-title">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat, possimus vitae!

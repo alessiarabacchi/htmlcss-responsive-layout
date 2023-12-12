@@ -43,17 +43,14 @@ a {
 
 .col-1-2 {
   width: 50%;
-  border: 2px solid black;
 }
 
 .col-1-3 {
   width: calc(100% / 3);
-  border: 2px solid black;
 }
 
 .col-2-3 {
   width: calc(100% / 3 * 2);
-  border: 2px solid black;
 }
 
 /* HEADER */
@@ -66,6 +63,12 @@ a {
 #header > .container {
   display: flex;
   justify-content: space-between;
+}
+
+#header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* SECTION DEMO APP */
@@ -99,7 +102,62 @@ a {
 #strategic-planning {
   background-color: #9792e4;
   padding: 3rem;
-  height: 100%;
+  height: 600px;
+}
+
+#strategic-planning .col-1-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#strategic-planning img {
+  width: 250px;
+  height: 250px;
+}
+
+#strategic-planning h3 {
+  color: white;
+  font-size: 20px;
+}
+
+#strategic-planning p {
+  color: white;
+  font-size: 15px;
+}
+
+.card.small {
+  background-color: white;
+  border-radius: 40px;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.white-card {
+  background-color: white;
+  border-radius: 40px;
+  width: 250px;
+  height: 100px;
+}
+
+.card.small img {
+  width: 80px;
+  height: 80px;
+}
+
+.card.small h4 {
+  color: black;
+}
+
+#strategic-planning .card.small p {
+  color: black;
+}
+
+.card.small i {
+  color: black;
+  background-color: #9792e4;
+  border-radius: 20px;
 }
 
 /* SECTION TESTIMONIALS */
@@ -127,17 +185,26 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 50px;
+  height: 150px;
   background-color: #9792e4;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .testimonials-img {
   width: 30%;
 }
 
+.testimonials-img img {
+  height: 100px;
+  margin: 25px auto;
+}
+
 .testimonials-text {
   width: 70%;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 /* SECTION BENEFITS */
@@ -160,6 +227,37 @@ a {
   flex-wrap: wrap;
   min-height: 100px;
   gap: 20px;
+}
+
+.col-1-3 {
+  background-color: white;
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.card h3 {
+  color: #9792e4;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.card h4 {
+  color: #9792e4;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.card button {
+  color: white;
+  background-color: #9792e4;
+  margin-left: 10px;
 }
 
 /* SECTION ABOUT US */
@@ -187,6 +285,12 @@ a {
   background-color: #9792e4;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.about-us-img {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
 }
 
 /* SECTION GET STARTED */
