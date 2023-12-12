@@ -449,6 +449,30 @@ a {
 
   #strategic-planning .col-1-2 {
     width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  #strategic-planning img {
+    margin: 0 auto;
+  }
+
+  #strategic-planning .white-card {
+    width: 100%;
+  }
+
+  #strategic-planning {
+    height: 1000px;
+  }
+
+  #strategic-planning .col-1-2 {
+    width: 100%;
+  }
+
+  .card.small {
+    width: 100%;
+    margin-top: 50px;
   }
 }
 
