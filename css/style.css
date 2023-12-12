@@ -100,6 +100,52 @@ a {
   background-color: #b5ddff;
   padding: 1rem;
   height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#demo-app .card.big {
+  display: flex;
+}
+
+.card-left {
+  width: 50%;
+}
+
+#demo-app .card-left h4 {
+  color: #0084fd;
+}
+
+#demo-app .card-left button {
+  background-color: #0084fd;
+  color: white;
+  padding: 0 20px;
+}
+
+#demo-app .card-right img {
+  width: 250px;
+  display: inline-block;
+}
+
+#demo-app .card i {
+  color: #0084fd;
+  font-size: 50px;
+
+  display: flex;
+  align-items: center;
+}
+
+#demo-app .card h3 {
+  color: #0084fd;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+#demo-app .card p {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
 
 /* SECTION STRATEGIC PLANNING */
